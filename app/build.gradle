@@ -21,6 +21,6 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation files('libs/Baidu_Mtj_3.9.0.1.jar')
+    compile 'com.baidu.mobstat:mtj-sdk:latest.integration'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 }

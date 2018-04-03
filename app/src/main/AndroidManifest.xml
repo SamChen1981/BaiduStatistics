@@ -33,7 +33,7 @@
 
         <meta-data
             android:name="BaiduMobAd_STAT_ID"
-            android:value="99a48b629e" />
+            android:value="caab9dda36" />
 
         <!-- 是否开启错误日志统计，默认为false -->
         <meta-data
