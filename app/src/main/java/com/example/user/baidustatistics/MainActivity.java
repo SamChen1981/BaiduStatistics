@@ -22,14 +22,14 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                StatService.setUserId(MainActivity.this,"88888888");
+
                 Map<String, String> attributes = new HashMap<String, String>();
                 attributes.put("name", "隐莲花开");
                 attributes.put("phone", "18538712527");
                 attributes.put("platform", "1");
                 attributes.put("time", "2018-04-0314:38");
                 attributes.put("type", "事件类型");
-                StatService.onEvent(MainActivity.this, "00001", "login", 1, attributes);
+                StatService.onEvent(MainActivity.this, "1001", "贷款", 1, attributes);
                 startActivity(new Intent(MainActivity.this,Main2Activity.class));
             }
         });
